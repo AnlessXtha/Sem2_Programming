@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment0.text=\r\n\ Declaration\ of\ DebitCard\ class\r\n\ Stores\ value\ of\ pinNumber,\ withdrawalAmount,\ dateOfWithdraw\ and\ hasWithdrawn\ \r\n\ Takes\ out\ a\ withdrawal\ amount\ with\ values\ pinNumber,\ withdrawalAmount,\ dateOfWithdraw\ if\ the\ condtions\r\n\ of\ pinNumber\ and\ withdrawalAmount\ are\ fulfilled.\r\n\ Display\ all\ the\ values\ if\ hasWithdrawn\ is\ true\ else\ only\ display\ balanceAmount\r\n
+comment1.params=cardID\ issuerBank\ bankAccount\ balanceAmount\ clientName\ pinNumber
+comment1.target=DebitCard(int,\ java.lang.String,\ java.lang.String,\ double,\ java.lang.String,\ int)
+comment2.params=withdrawalAmount
+comment2.target=void\ setWithdrawalAmount(int)
+comment3.params=
+comment3.target=int\ getPinNumber()
+comment4.params=
+comment4.target=int\ getWithdrawalAmount()
+comment5.params=
+comment5.target=java.lang.String\ getDateOfWithdraw()
+comment6.params=
+comment6.target=boolean\ getHasWithdrawn()
+comment7.params=pinNumber\ withdrawalAmount\ dateOfWithdraw
+comment7.target=void\ withdraw(int,\ int,\ java.lang.String)
+comment7.text=\r\n\ withdraw()\ is\ used\ to\ withdraw\ money\ from\ the\ balanceAmount\r\n\ withdraw\ is\ done\ if\ the\ pinNumber\ is\ valid\ and\ withdrawalAmount\ is\ less\ than\ balanceAmount\r\n\ else\ suitable\ message\ is\ displayed\r\n
+comment8.params=
+comment8.target=void\ debitDisplay()
+comment8.text=\r\n\ debitDisplay()\ is\ used\ to\ display\ the\ content\ of\ the\ debit\ card\ if\ the\ condition\ of\ hasWithdrawn\ is\ true.\r\n
+numComments=9

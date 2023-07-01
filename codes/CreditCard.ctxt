@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=CreditCard
+comment0.text=\r\n\ Declaration\ of\ CreditCard\ class\r\n\ Stores\ value\ of\ cvcNumber,\ creditLimit,\ interestRate,\ expirationDate,\ gracePeriod\ and\ isGranted\r\n\ Sets\ creditLimit\ and\ gracePeriod\ with\ values\ creditLimit\ and\ gracePeriod\ if\ the\ condtions\r\n\ of\ creditLimit\ is\ fulfilled\r\n\ cancelCreditCard\ method\ cancels\ the\ credit\ card\ when\ called\r\n\ Display\ all\ the\ values\ if\ isGranted\ is\ true\ else\ display\ all\ values\ except\ cvcNumber,\ creditLimit,\ garcePeriod\r\n
+comment1.params=cardID\ issuerBank\ bankAccount\ balanceAmount\ clientName\ cvcNumber\ interestRate\ expirationDate
+comment1.target=CreditCard(int,\ java.lang.String,\ java.lang.String,\ double,\ java.lang.String,\ int,\ double,\ java.lang.String)
+comment10.params=
+comment10.target=void\ creditDisplay()
+comment10.text=\r\n\ creditDisplay()\ is\ used\ to\ display\ the\ content\ of\ the\ credit\ card\ if\ the\ condition\ of\ isGranted\ is\ true.\r\n
+comment2.params=creditLimit\ gracePeriod
+comment2.target=void\ setCreditLimit(int,\ int)
+comment2.text=\r\n\ This\ setter\ is\ used\ to\ set\ the\ value\ of\ creditLimit\ and\ gracePeriod\ if\ the\ given\ condtion\ is\ satisfied.\r\n
+comment3.params=
+comment3.target=int\ getCvcNumber()
+comment4.params=
+comment4.target=double\ getCreditLimit()
+comment5.params=
+comment5.target=double\ getInterestRate()
+comment6.params=
+comment6.target=java.lang.String\ getExpirationDate()
+comment7.params=
+comment7.target=int\ getGracePeriod()
+comment8.params=
+comment8.target=boolean\ getIsGranted()
+comment9.params=
+comment9.target=void\ cancelCreditCard()
+comment9.text=\r\n\ cancelCreditCard()\ is\ used\ to\ remove\ the\ client's\ credit\ card.\r\n
+numComments=11
